@@ -1,0 +1,2412 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#navBar {
+    width: 100%;
+    /* margin-top: -6px; */
+    padding: 20px;
+
+
+    #navbarSupportedContent {
+        * {
+            font-size: 18px;
+            color: black;
+        }
+
+        ul>li>a:hover {
+            color: blue;
+        }
+    }
+}
+
+#btn {
+    padding: 10px 40px 10px 40px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border: 1px blue solid;
+}
+
+#btn1 {
+    padding: 8px 30px 8px 30px;
+    border: none;
+    color: white;
+    font-size: 20px;
+
+}
+
+#home {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    padding: 50px 50px 500px 50px;
+    width: 100%;
+    background-image: url(https://assets-v2.scaler.com/assets/academy/svg/banner-background-34136d3a9ddff172e6bae6e3d8283c452231dcda2196b055bfa2e34e222754b7.svg);
+    background-position: center;
+
+    #door {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 40px;
+
+        #your {
+            font-size: 40px;
+            color: white;
+        }
+
+        #now {
+            font-size: 25px;
+            color: gray;
+        }
+
+        #button {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+
+            #book {
+                font-size: 20px;
+                padding: 15px 10px;
+                background-color: red;
+                color: white;
+                border-radius: 10px;
+                border: none;
+            }
+
+            #explore {
+                font-size: 20px;
+                padding: 15px 10px;
+                background-color: white;
+                color: rgb(39, 39, 239);
+                border-radius: 10px;
+                border: none;
+            }
+        }
+
+        #next {
+            font-size: 19px;
+            color: orange;
+        }
+    }
+
+    #door1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 20px;
+        box-shadow: 0px 5px 25px gray;
+        background-color: white;
+        padding: 15px 40px;
+        border-radius: 7px;
+        height: 500px;
+        overflow: scroll;
+
+        #book {
+            font-size: 45px;
+        }
+
+        #input {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            gap: 20px;
+
+            #name {
+                font-size: 20px;
+                width: 500px;
+                padding: 18px 5px;
+                border-radius: 5px;
+                border: 1px gray solid;
+            }
+
+            #email {
+                font-size: 20px;
+                width: 500px;
+                padding: 18px 5px;
+                border-radius: 5px;
+                border: 1px gray solid;
+            }
+        }
+
+        #select {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: start;
+            gap: 10px;
+
+            #cars {
+                font-size: 20px;
+                padding: 15px 5px;
+                border-radius: 5px;
+                width: 80px;
+                border: 1px gray solid;
+            }
+
+            #phone {
+                font-size: 20px;
+                width: 420px;
+                padding: 15px 5px;
+                border-radius: 5px;
+                border: 1px gray solid;
+            }
+        }
+
+        #continue {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: start;
+            gap: 10px;
+
+            #con {
+                font-size: 20px;
+                padding: 6px 15px;
+                background-color: red;
+                color: white;
+                border-radius: 5px;
+                border: none;
+            }
+
+            #limited {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: start;
+                gap: 10px;
+
+                #fa {
+                    color: red;
+                    padding-top: 5px;
+                    font-size: 30px;
+                }
+
+                #seat {
+                    color: red;
+                    padding-top: 6px;
+                }
+            }
+        }
+
+        #already {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: start;
+            gap: 10px;
+
+            #have {
+                font-size: 20px;
+                color: gray;
+            }
+
+            #htt {
+                font-size: 20px;
+                text-decoration: none;
+            }
+        }
+
+        #by {
+            color: gray;
+        }
+    }
+}
+
+#home1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 30px 30px 30px 30px;
+    box-shadow: 0px 5px 25px gray;
+    margin-top: -400px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+    #program {
+        font-size: 40px;
+    }
+
+    #door2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+
+        #room {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: start;
+            gap: 25px;
+
+            #Structured {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: rgb(0, 180, 252);
+                overflow: hidden;
+                padding: 15px 20px 60px 40px;
+                border-radius: 10px;
+
+                #best {
+                    font-size: 25px;
+                    rotate: 45deg;
+                    background-color: orange;
+                    width: 400px;
+                    margin-right: -300px;
+                }
+
+                #box {
+                    width: 150px;
+                }
+
+                #industry {
+                    font-size: 32px;
+                    width: 350px;
+                    text-align: center;
+                    color: white;
+                }
+            }
+
+            #live {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: rgb(244, 103, 127);
+                overflow: hidden;
+                padding: 15px 20px 30px 40px;
+                border-radius: 10px;
+
+                #bes {
+                    font-size: 25px;
+                    rotate: 45deg;
+                    background-color: purple;
+                    width: 400px;
+                    margin-right: -300px;
+                }
+
+                #dot {
+                    width: 120px;
+                }
+
+                #class {
+                    font-size: 32px;
+                    width: 350px;
+                    text-align: center;
+                    color: white;
+                }
+            }
+
+            #practical {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: rgb(107, 235, 107);
+                overflow: hidden;
+                padding: 15px 15px 74px 15px;
+                border-radius: 10px;
+
+                #be {
+                    font-size: 25px;
+                    rotate: 45deg;
+                    background-color: blue;
+                    width: 400px;
+                    margin-right: -350px;
+                }
+
+                #hand {
+                    width: 120px;
+                }
+
+                #real {
+                    font-size: 32px;
+                    width: 400px;
+                    text-align: center;
+                    color: white;
+                }
+            }
+        }
+
+        #room1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: start;
+            gap: 25px;
+
+            #regular {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: rgb(28, 179, 239);
+                overflow: hidden;
+                padding: 15px 20px 60px 40px;
+                border-radius: 10px;
+
+                #est {
+                    font-size: 25px;
+                    rotate: 45deg;
+                    background-color: orange;
+                    width: 400px;
+                    margin-right: -300px;
+                }
+
+                #men {
+                    width: 120px;
+                }
+
+                #from {
+                    font-size: 32px;
+                    width: 350px;
+                    text-align: center;
+                    color: white;
+                }
+            }
+
+            #career {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: orange;
+                overflow: hidden;
+                padding: 0px 20px 30px 20px;
+                border-radius: 10px;
+
+                #st {
+                    font-size: 25px;
+                    rotate: 45deg;
+                    background-color: blue;
+                    width: 400px;
+                    margin-right: -350px;
+                }
+
+                #doute {
+                    width: 120px;
+                }
+
+                #support {
+                    font-size: 32px;
+                    width: 380px;
+                    text-align: center;
+                    color: white;
+                }
+            }
+
+            #peer {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: rgba(128, 0, 128, 0.701);
+                overflow: hidden;
+                padding: 0px 20px 30px 20px;
+                border-radius: 10px;
+
+                #t {
+                    font-size: 25px;
+                    rotate: 45deg;
+                    background-color: orange;
+                    width: 400px;
+                    margin-right: -350px;
+                }
+
+                #of {
+                    width: 110px;
+                }
+
+                #aspir {
+                    font-size: 32px;
+                    width: 400px;
+                    text-align: center;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+#hoom2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+
+    #we {
+        font-size: 40px;
+    }
+
+    #door3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        text-align: center;
+
+        #missed {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            border: 1px gray solid;
+            padding: 20px 10px 20px 10px;
+            border-radius: 10px;
+
+            #watch {
+                font-size: 20px;
+                color: gray;
+                width: 400px;
+            }
+        }
+
+        #work {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            border: 1px gray solid;
+            padding: 20px 20px 20px 20px;
+            border-radius: 10px;
+
+            #pause {
+                font-size: 20px;
+                color: gray;
+                width: 380px;
+            }
+        }
+
+        #jobs {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            border: 1px gray solid;
+            padding: 20px 20px 20px 20px;
+            border-radius: 10px;
+
+            #decide {
+                font-size: 20px;
+                color: gray;
+                width: 350px;
+            }
+        }
+    }
+
+    #door4 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        text-align: center;
+
+        #want {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            border: 1px gray solid;
+            padding: 20px 20px 20px 20px;
+            border-radius: 10px;
+
+            #acess {
+                font-size: 20px;
+                color: gray;
+                width: 400px;
+            }
+        }
+
+        #have {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            border: 1px gray solid;
+            padding: 31px 20px 31px 20px;
+            border-radius: 10px;
+
+            #get {
+                font-size: 20px;
+                color: gray;
+                width: 400px;
+            }
+        }
+    }
+}
+#curriculum {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(135, 207, 235, 0.734);
+    width: 100%;
+    gap: 30px;
+    padding: 20px;
+
+    #curriculumhead {
+        font-size: 30px;
+
+        a {
+            font-weight: bold;
+        }
+
+        b {
+            border-bottom: 2px #87cfeb00 solid;
+        }
+    }
+
+    #currmix1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+
+        #curr {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            background: white;
+            padding: 20px 20px;
+            gap: 100px;
+
+            #curr1 {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                #currhead {
+                    font-size: 20px;
+                }
+            }
+
+            #radio {
+                height: 30px;
+                width: 30px;
+            }
+        }
+
+        #curr:hover {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            background: white;
+            padding: 20px 20px;
+            gap: 100px;
+            background-color: rgba(135, 207, 235, 0.734);
+
+            #curr1 {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                #currhead {
+                    font-size: 20px;
+                }
+            }
+
+            #radio {
+                height: 30px;
+                width: 30px;
+            }
+        }
+    }
+
+
+
+    #currmix2 {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+
+        #currmix21 {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: start;
+            gap: 20px;
+
+            #currall1 {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                background: white;
+                padding: 10px 20px;
+                gap: 20px;
+                border-radius: 10px;
+
+                #curr {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+
+                    #curr1 {
+                        font-size: 13px;
+                    }
+
+                    #curr2 {
+                        font-size: 20px;
+                    }
+                }
+
+                #mon {
+                    font-size: 15px;
+                }
+            }
+
+            #currall1:hover {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                background: rgb(22, 160, 214);
+                color: white;
+                padding: 10px 20px;
+                gap: 20px;
+                border-radius: 10px;
+
+                #curr {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+
+                    #curr1 {
+                        font-size: 13px;
+                    }
+
+                    #curr2 {
+                        font-size: 15px;
+                    }
+                }
+
+                #mon {
+                    font-size: 15px;
+                }
+            }
+
+            #currall2 {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: start;
+                background: white;
+                padding: 10px 20px ;
+                gap: 75px;
+                width: 100%;
+                border-radius: 10px;
+
+                #curr {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+
+                    #curr1 {
+                        font-size: 13px;
+                    }
+
+                    #curr2 {
+                        font-size: 20px;
+                    }
+                }
+
+                #mon {
+                    font-size: 15px;
+                }
+            }
+
+            #currall2:hover {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                background-color: rgb(22, 160, 214);
+                padding: 10px 20px;
+                gap: 20px;
+                width: 100%;
+                border-radius: 10px;
+
+                #curr {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+
+                    #curr1 {
+                        font-size: 13px;
+                    }
+
+                    #curr2 {
+                        font-size: 20px;
+                    }
+                }
+
+                #mon {
+                    font-size: 15px;
+                }
+            }
+
+            #currall3 {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: start;
+                background: white;
+                padding: 10px 20px;
+                gap: 280px;
+                width: 100%;
+                border-radius: 10px;
+
+                #curr {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+
+                    #curr1 {
+                        font-size: 13px;
+                    }
+
+                    #curr2 {
+                        font-size: 20px;
+                    }
+                }
+
+                #mon {
+                    font-size: 15px;
+                }
+            }
+
+            #currall3:hover {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                background-color: rgb(22, 160, 214);
+                padding: 10px 20px;
+                gap: 20px;
+                width: 100%;
+                border-radius: 10px;
+
+                #curr {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+
+                    #curr1 {
+                        font-size: 13px;
+                    }
+
+                    #curr2 {
+                        font-size: 20px;
+                    }
+                }
+
+                #mon {
+                    font-size: 15px;
+                }
+            }
+
+            #currall4 {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: start;
+                background: white;
+                padding: 10px 20px;
+                gap: 75px;
+                width: 100%;
+                border-radius: 10px;
+
+                #curr {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+
+                    #curr1 {
+                        font-size: 13px;
+                    }
+
+                    #curr2 {
+                        font-size: 20px;
+                    }
+                }
+
+                #mon {
+                    font-size: 15px;
+                }
+            }
+
+            #currall4:hover {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                background-color: rgb(22, 160, 214);
+                padding: 10px 20px;
+                gap: 20px;
+                width: 100%;
+                border-radius: 10px;
+
+                #curr {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+
+                    #curr1 {
+                        font-size: 13px;
+                    }
+
+                    #curr2 {
+                        font-size: 20px;
+                    }
+                }
+
+                #mon {
+                    font-size: 15px;
+                }
+            }
+
+            #currall5 {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: start;
+                background: white;
+                padding: 10px 20px;
+                gap: 135px;
+                width: 100%;
+                border-radius: 10px;
+
+                #curr {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+
+                    #curr1 {
+                        font-size: 13px;
+                    }
+
+                    #curr2 {
+                        font-size: 20px;
+                    }
+                }
+
+                #mon {
+                    font-size: 15px;
+                }
+            }
+
+            #currall5:hover {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                background-color: rgb(22, 160, 214);
+                padding: 10px 20px;
+                gap: 20px;
+                width: 100%;
+                border-radius: 10px;
+
+                #curr {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+
+                    #curr1 {
+                        font-size: 13px;
+                    }
+
+                    #curr2 {
+                        font-size: 20px;
+                    }
+                }
+
+                #mon {
+                    font-size: 15px;
+                }
+            }
+
+            #currall6 {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: start;
+                background: white;
+                padding: 10px 20px;
+                gap: 275px;
+                width: 100%;
+                border-radius: 10px;
+
+                #curr {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+
+                    #curr1 {
+                        font-size: 13px;
+                    }
+
+                    #curr2 {
+                        font-size: 20px;
+                    }
+                }
+
+                #mon {
+                    font-size: 15px;
+                }
+            }
+
+            #currall6:hover {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: start;
+                color: white;
+                background-color: rgb(22, 160, 214);
+                padding: 10px 20px;
+                gap: 20px;
+                width: 100%;
+                border-radius: 10px;
+
+                #curr {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+
+                    #curr1 {
+                        font-size: 13px;
+                    }
+
+                    #curr2 {
+                        font-size: 20px;
+                    }
+                }
+
+                #mon {
+                    font-size: 15px;
+                }
+            }
+        }
+
+        #currmix3 {
+            display: flex;
+            flex-direction: column;
+            gap: 60px;
+
+            #currmix31 {
+                display: flex;
+                flex-direction: column;
+                background-color:  blue;
+                padding: 20px 50px;
+                gap: 10px;
+                border-radius: 10px;
+
+                #curr3head {
+                    color: white;
+                    font-size: 20px;
+                    border-bottom: 2px white solid;
+                }
+
+                #curr3sub {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+
+                    a {
+                        font-size: 20px;
+                        color: white;
+                        gap: 10px;
+                    }
+
+                    i {
+                        color: white;
+                        font-size: 8px;
+                    }
+                }
+
+                #curr3sub1 {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+
+                    a {
+                        font-size: 20px;
+                        color: white;
+                        gap: 10px;
+                    }
+
+                    i {
+                        color: white;
+                        font-size: 8px;
+                    }
+                }
+            }
+
+            button {
+                color: white;
+                background: rgb(250, 3, 69);
+                border: none;
+                padding: 10px 20px;
+                font-size: 15px;
+                cursor: pointer;
+                border-radius: 10px;
+            }
+        }
+    }
+}
+
+#take {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: navy;
+
+    #take1 {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        gap: 20px;
+
+        #takehead {
+            font-size: 30px;
+            font-weight: bold;
+            color: white;
+        }
+
+        #takesub {
+            color: white;
+        }
+
+        #takebody {
+            display: flex;
+            flex-direction: row;
+
+            #takebody1 {
+                display: flex;
+                flex-direction: row;
+                color: white;
+                width: 300px;
+
+                i {
+                    color: orange;
+                }
+            }
+        }
+
+        button {
+            color: white;
+            background: rgb(172, 18, 18);
+            cursor: pointer;
+            padding: 20px 40px;
+            border-radius: 10px;
+            border: none;
+            font-size: 20px;
+        }
+    }
+
+    img {
+        height: 300px;
+        width: 500px;
+    }
+}
+#home6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 25px;
+    width: 1700px;
+    overflow-x: scroll;
+    margin-top: 60px;
+
+    #your {
+        font-size: 40px;
+        text-align: center;
+        margin-left: 400px;
+    }
+
+    #working {
+        font-size: 20px;
+        margin-left: 600px;
+    }
+
+    #room7 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        #mayur {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: start;
+            gap: 25px;
+
+            #sd {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: start;
+                border: 1px gray solid;
+                padding: 20px 20px;
+                gap: 40px;
+                border-radius: 10px;
+
+                #my {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: start;
+                    gap: 10px;
+
+                    #pics {
+                        width: 120px;
+                    }
+
+                    #walmart {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: start;
+
+                        #sde {
+                            font-size: 24px;
+                            color: gray;
+                        }
+
+                        #wall {
+                            width: 80px;
+                        }
+                    }
+
+                    #box {
+                        width: 40px;
+                        margin-left: 80px;
+                    }
+                }
+
+                #had {
+                    font-size: 22px;
+                    width: 400px;
+                    padding-bottom: 50px;
+                }
+
+                #more {
+                    font-size: 22px;
+                    color: blue;
+                    border: none;
+                    background-color: white;
+                }
+            }
+
+
+        }
+
+        #sd1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            border: 1px gray solid;
+            padding: 20px 20px;
+            gap: 40px;
+            border-radius: 10px;
+
+            #my {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: start;
+                gap: 10px;
+
+                #pics {
+                    width: 120px;
+                }
+
+                #walmart {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: start;
+
+                    #sde {
+                        font-size: 24px;
+                        color: gray;
+                    }
+
+                    #jio {
+                        width: 50px;
+                    }
+                }
+
+                #box {
+                    width: 40px;
+                    margin-left: 70px;
+                }
+            }
+
+            #had1 {
+                font-size: 22px;
+                width: 400px;
+                margin-bottom: 65px;
+            }
+
+            #more {
+                font-size: 22px;
+                color: blue;
+                border: none;
+                background-color: white;
+            }
+        }
+
+        #sd2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            border: 1px gray solid;
+            padding: 20px 20px;
+            gap: 31px;
+            border-radius: 10px;
+
+            #my {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: start;
+                gap: 10px;
+
+                #pics1 {
+                    width: 120px;
+                    height: 120px;
+                    border-radius: 50%;
+                }
+
+                #walmart {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: start;
+
+                    #sde {
+                        font-size: 24px;
+                        color: gray;
+                    }
+
+                    #lend {
+                        width: 110px;
+                    }
+                }
+
+                #box {
+                    width: 40px;
+                    margin-left: 80px;
+                }
+            }
+
+            #had2 {
+                font-size: 22px;
+                width: 420px;
+            }
+
+            #more {
+                font-size: 22px;
+                color: blue;
+                border: none;
+                background-color: white;
+            }
+        }
+
+        #sd3 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            border: 1px gray solid;
+            padding: 20px 20px;
+            gap: 32px;
+            border-radius: 10px;
+
+            #my {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: start;
+                gap: 10px;
+
+                #pics2 {
+                    width: 120px;
+                }
+
+                #walmart {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: start;
+
+                    #sde {
+                        font-size: 24px;
+                        color: gray;
+                    }
+
+                    #gold {
+                        width: 100px;
+                    }
+                }
+
+                #box {
+                    width: 40px;
+                    margin-left: 80px;
+                }
+            }
+
+            #had3 {
+                font-size: 22px;
+                width: 420px;
+                margin-bottom: 80px;
+            }
+
+            #more {
+                font-size: 22px;
+                color: blue;
+                border: none;
+                background-color: white;
+            }
+        }
+
+        #sd4 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            border: 1px gray solid;
+            padding: 20px 20px;
+            gap: 40px;
+            border-radius: 10px;
+
+            #my {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: start;
+                gap: 10px;
+
+                #pics3 {
+                    width: 120px;
+                    border-radius: 50%;
+                }
+
+                #walmart {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: start;
+
+                    #sde {
+                        font-size: 24px;
+                        color: gray;
+                    }
+
+                    #jio {
+                        width: 50px;
+                    }
+                }
+
+                #box {
+                    width: 40px;
+                    margin-left: 70px;
+                }
+            }
+
+            #had1 {
+                font-size: 22px;
+                width: 400px;
+                margin-bottom: 43px;
+            }
+
+            #more {
+                font-size: 22px;
+                color: blue;
+                border: none;
+                background-color: white;
+            }
+        }
+
+        #sd5 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            border: 1px gray solid;
+            padding: 20px 20px;
+            gap: 40px;
+            border-radius: 10px;
+
+            #my {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: start;
+                gap: 10px;
+
+                #pics3 {
+                    width: 120px;
+                    border-radius: 50%;
+                }
+
+                #walmart {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: start;
+
+                    #sde {
+                        font-size: 24px;
+                        color: gray;
+                    }
+
+                    #jio {
+                        width: 50px;
+                    }
+                }
+
+                #box {
+                    width: 40px;
+                    margin-left: 70px;
+                }
+            }
+
+            #had1 {
+                font-size: 22px;
+                width: 400px;
+                margin-bottom: 65px;
+            }
+
+            #more {
+                font-size: 22px;
+                color: blue;
+                border: none;
+                background-color: white;
+            }
+        }
+
+        #sd6 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            border: 1px gray solid;
+            padding: 20px 20px;
+            gap: 28px;
+            border-radius: 10px;
+
+            #my {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: start;
+                gap: 10px;
+
+                #pics3 {
+                    width: 150px;
+                    height: 150px;
+                    border-radius: 50%;
+                }
+
+                #walmart {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: start;
+
+                    #sde {
+                        font-size: 24px;
+                        color: gray;
+                    }
+
+                    #google1 {
+                        width: 100px;
+                    }
+                }
+
+                #box {
+                    width: 40px;
+                    margin-left: 70px;
+                }
+            }
+
+            #had4 {
+                font-size: 22px;
+                width: 450px;
+            }
+
+            #more {
+                font-size: 22px;
+                color: blue;
+                border: none;
+                background-color: white;
+            }
+        }
+
+        #sd7 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            border: 1px gray solid;
+            padding: 20px 20px;
+            gap: 40px;
+            border-radius: 10px;
+
+            #my {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: start;
+                gap: 10px;
+
+                #pics {
+                    width: 120px;
+                }
+
+                #walmart {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: start;
+
+                    #sde {
+                        font-size: 24px;
+                        color: gray;
+                    }
+
+                    #wall {
+                        width: 80px;
+                    }
+                }
+
+                #box {
+                    width: 40px;
+                    margin-left: 80px;
+                }
+            }
+
+            #had {
+                font-size: 22px;
+                width: 400px;
+                padding-bottom: 50px;
+            }
+
+            #more {
+                font-size: 22px;
+                color: blue;
+                border: none;
+                background-color: white;
+            }
+        }
+
+        #sd8 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            border: 1px gray solid;
+            padding: 20px 20px;
+            border-radius: 10px;
+
+            #my {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: start;
+                gap: 10px;
+
+                #pics4 {
+                    width: 120px;
+                    border-radius: 50%;
+                }
+
+                #walmart {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: start;
+
+                    #sde {
+                        font-size: 24px;
+                        color: gray;
+                    }
+
+                    #wall {
+                        width: 80px;
+                    }
+                }
+
+                #box {
+                    width: 40px;
+                    margin-left: 80px;
+                }
+            }
+
+            #had {
+                font-size: 22px;
+                width: 400px;
+                padding-bottom: 50px;
+            }
+
+            #more {
+                font-size: 22px;
+                color: blue;
+                border: none;
+                background-color: white;
+            }
+        }
+    }
+
+    #room8 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        #mayur {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: start;
+            gap: 25px;
+
+            #sd {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: start;
+                border: 1px gray solid;
+                padding: 20px 20px;
+                gap: 40px;
+                border-radius: 10px;
+
+                #my {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: start;
+                    gap: 10px;
+
+                    #pics {
+                        width: 120px;
+                    }
+
+                    #walmart {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: start;
+
+                        #sde {
+                            font-size: 24px;
+                            color: gray;
+                        }
+
+                        #wall {
+                            width: 80px;
+                        }
+                    }
+
+                    #box {
+                        width: 40px;
+                        margin-left: 80px;
+                    }
+                }
+
+                #had {
+                    font-size: 22px;
+                    width: 400px;
+                    padding-bottom: 50px;
+                }
+
+                #more {
+                    font-size: 22px;
+                    color: blue;
+                    border: none;
+                    background-color: white;
+                }
+            }
+
+
+        }
+
+        #sd1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            border: 1px gray solid;
+            padding: 20px 20px;
+            gap: 40px;
+            border-radius: 10px;
+
+            #my {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: start;
+                gap: 10px;
+
+                #pics {
+                    width: 120px;
+                }
+
+                #walmart {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: start;
+
+                    #sde {
+                        font-size: 24px;
+                        color: gray;
+                    }
+
+                    #jio {
+                        width: 50px;
+                    }
+                }
+
+                #box {
+                    width: 40px;
+                    margin-left: 70px;
+                }
+            }
+
+            #had1 {
+                font-size: 22px;
+                width: 400px;
+                margin-bottom: 65px;
+            }
+
+            #more {
+                font-size: 22px;
+                color: blue;
+                border: none;
+                background-color: white;
+            }
+        }
+
+        #sd2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            border: 1px gray solid;
+            padding: 20px 20px;
+            gap: 31px;
+            border-radius: 10px;
+
+            #my {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: start;
+                gap: 10px;
+
+                #pics1 {
+                    width: 120px;
+                    height: 120px;
+                    border-radius: 50%;
+                }
+
+                #walmart {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: start;
+
+                    #sde {
+                        font-size: 24px;
+                        color: gray;
+                    }
+
+                    #lend {
+                        width: 110px;
+                    }
+                }
+
+                #box {
+                    width: 40px;
+                    margin-left: 80px;
+                }
+            }
+
+            #had2 {
+                font-size: 22px;
+                width: 420px;
+            }
+
+            #more {
+                font-size: 22px;
+                color: blue;
+                border: none;
+                background-color: white;
+            }
+        }
+
+        #sd3 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            border: 1px gray solid;
+            padding: 20px 20px;
+            gap: 32px;
+            border-radius: 10px;
+
+            #my {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: start;
+                gap: 10px;
+
+                #pics2 {
+                    width: 120px;
+                }
+
+                #walmart {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: start;
+
+                    #sde {
+                        font-size: 24px;
+                        color: gray;
+                    }
+
+                    #gold {
+                        width: 100px;
+                    }
+                }
+
+                #box {
+                    width: 40px;
+                    margin-left: 80px;
+                }
+            }
+
+            #had3 {
+                font-size: 22px;
+                width: 420px;
+                margin-bottom: 80px;
+            }
+
+            #more {
+                font-size: 22px;
+                color: blue;
+                border: none;
+                background-color: white;
+            }
+        }
+
+        #sd4 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            border: 1px gray solid;
+            padding: 20px 20px;
+            gap: 40px;
+            border-radius: 10px;
+
+            #my {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: start;
+                gap: 10px;
+
+                #pics3 {
+                    width: 120px;
+                    border-radius: 50%;
+                }
+
+                #walmart {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: start;
+
+                    #sde {
+                        font-size: 24px;
+                        color: gray;
+                    }
+
+                    #jio {
+                        width: 50px;
+                    }
+                }
+
+                #box {
+                    width: 40px;
+                    margin-left: 70px;
+                }
+            }
+
+            #had1 {
+                font-size: 22px;
+                width: 400px;
+                margin-bottom: 43px;
+            }
+
+            #more {
+                font-size: 22px;
+                color: blue;
+                border: none;
+                background-color: white;
+            }
+        }
+
+        #sd5 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            border: 1px gray solid;
+            padding: 20px 20px;
+            gap: 40px;
+            border-radius: 10px;
+
+            #my {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: start;
+                gap: 10px;
+
+                #pics3 {
+                    width: 120px;
+                    border-radius: 50%;
+                }
+
+                #walmart {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: start;
+
+                    #sde {
+                        font-size: 24px;
+                        color: gray;
+                    }
+
+                    #jio {
+                        width: 50px;
+                    }
+                }
+
+                #box {
+                    width: 40px;
+                    margin-left: 70px;
+                }
+            }
+
+            #had1 {
+                font-size: 22px;
+                width: 400px;
+                margin-bottom: 65px;
+            }
+
+            #more {
+                font-size: 22px;
+                color: blue;
+                border: none;
+                background-color: white;
+            }
+        }
+
+        #sd6 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            border: 1px gray solid;
+            padding: 20px 20px;
+            gap: 28px;
+            border-radius: 10px;
+
+            #my {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: start;
+                gap: 10px;
+
+                #pics3 {
+                    width: 150px;
+                    height: 150px;
+                    border-radius: 50%;
+                }
+
+                #walmart {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: start;
+
+                    #sde {
+                        font-size: 24px;
+                        color: gray;
+                    }
+
+                    #google1 {
+                        width: 100px;
+                    }
+                }
+
+                #box {
+                    width: 40px;
+                    margin-left: 70px;
+                }
+            }
+
+            #had4 {
+                font-size: 22px;
+                width: 450px;
+            }
+
+            #more {
+                font-size: 22px;
+                color: blue;
+                border: none;
+                background-color: white;
+            }
+        }
+
+        #sd7 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            border: 1px gray solid;
+            padding: 20px 20px;
+            gap: 40px;
+            border-radius: 10px;
+
+            #my {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: start;
+                gap: 10px;
+
+                #pics {
+                    width: 120px;
+                }
+
+                #walmart {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: start;
+
+                    #sde {
+                        font-size: 24px;
+                        color: gray;
+                    }
+
+                    #wall {
+                        width: 80px;
+                    }
+                }
+
+                #box {
+                    width: 40px;
+                    margin-left: 80px;
+                }
+            }
+
+            #had {
+                font-size: 22px;
+                width: 400px;
+                padding-bottom: 50px;
+            }
+
+            #more {
+                font-size: 22px;
+                color: blue;
+                border: none;
+                background-color: white;
+            }
+        }
+
+        #sd8 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            border: 1px gray solid;
+            padding: 20px 20px;
+            border-radius: 10px;
+
+            #my {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: start;
+                gap: 10px;
+
+                #pics4 {
+                    width: 120px;
+                    border-radius: 50%;
+                }
+
+                #walmart {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: start;
+
+                    #sde {
+                        font-size: 24px;
+                        color: gray;
+                    }
+
+                    #wall {
+                        width: 80px;
+                    }
+                }
+
+                #box {
+                    width: 40px;
+                    margin-left: 80px;
+                }
+            }
+
+            #had {
+                font-size: 22px;
+                width: 400px;
+                padding-bottom: 50px;
+            }
+
+            #more {
+                font-size: 22px;
+                color: blue;
+                border: none;
+                background-color: white;
+            }
+        }
+    }
+
+}
+#home8 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: #0f8cff;
+    width: 100%;
+    margin-top: 45px;
+    padding: 20px 20px;
+
+    #room9 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        #bulb {
+            width: 250px;
+            background-color: rgb(0, 183, 255);
+            border-radius: 50%;
+            padding: 10px 10px;
+        }
+
+        #chance {
+            font-size: 22px;
+            color: white;
+        }
+    }
+
+    #more {
+        font-size: 28px;
+        padding: 10px 50px 10px 50px;
+        border-radius: 10px;
+        border: none;
+    }
+}
+
+#home9 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e7f3ff;
+    gap: 30px;
+    width: 100%;
+    padding: 25px 0px 40px 0px;
+    margin-top: 50px;
+
+    #education {
+        font-size: 45px;
+        width: 1500px;
+        text-align: center;
+    }
+
+    #via {
+        font-size: 21px;
+        width: 1400px;
+        text-align: center;
+        color: gray;
+    }
+
+    #here {
+        font-size: 25px;
+    }
+
+    #room10 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 5px 25px gray;
+        border-radius: 15px;
+
+        #openings {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            gap: 40px;
+
+            #job {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+
+                #search {
+                    width: 100px;
+                }
+
+                #ons {
+                    font-size: 22px;
+                    font-weight: bold;
+                    width: 250px;
+                }
+            }
+
+            #job:hover {
+                background-color: #0f8cff;
+            }
+        }
+
+        #screen {
+            width: 1300px;
+            background-color: #57aeff;
+            padding: 30px 30px;
+        }
+    }
+}
+
+#home10 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 80px;
+    #car {
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    #along {
+        font-size: 22px;
+        color: gray;
+    }
+
+    #room11 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: start;
+        gap: 30px;
+        #hands {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+            border: 1px gray solid;
+            padding: 35px 35px;
+            border-radius: 15px;
+            #touch{
+                width: 120px;
+            }
+            #bring{
+                font-size: 22px;
+                width: 300px;
+                text-align: center;
+                color: gray;
+            }
+        }
+        #hands1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 55px;
+            border: 1px gray solid;
+            padding: 35px 35px;
+            border-radius: 15px;
+            #touch{
+                width: 120px;
+            }
+            #bring{
+                font-size: 22px;
+                width: 300px;
+                text-align: center;
+                color: gray;
+            }
+        }
+    }
+}
